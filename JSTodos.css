@@ -1,0 +1,57 @@
+h1 {
+	font-family: Nunito;
+	font-size: 3em;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+h2 {
+	font-family: Nunito;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: Nunito;
+	font-size: 1em;
+}
+input {
+	width: 40%;
+	padding: 12px 20px;
+	margin: 0 auto;
+	align-self: center;
+	box-sizing: border-box;
+	border-style: groove;
+	border-radius: 4px;
+	background-color: rgb(201, 220, 227);
+}
+
+button {
+	font-family: Nunito;
+	font-size: auto;
+	width: auto;
+	height: auto;
+	line-height: auto;
+	text-align: center;
+}
+
+html {
+	display: table;
+	width: 100%;
+}
+body {
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+}
+
+#results {
+	font-family: Nunito;
+	color: royalblue;
+	font-size: 1.5em;
+}
+
+.complete {
+	color: red;
+	text-decoration: line-through;
+}
