@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Javascript TODO Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="JSToDoLocalStorage.css">
+</head>
+
+<body>
+    <header>
+        <h1>MY TODO List</h1><br>
+    </header>
+    
+    <form id="todoForm">
+            <input type="text" placeholder="Enter your TODO item" class="todoInput">
+            <button class="todoButton" type="submit">Add to List               
+            </button>
+    </form>
+    <div>
+        <h2>Below is your current TODO list:</h2>
+    </div>
+        <div class="todoContainer">
+        <ul class="todoList"></ul>
+    </div>
+        <script src="JSTodoLocalStorage.js"></script>
+
+</body>
+
+</html>

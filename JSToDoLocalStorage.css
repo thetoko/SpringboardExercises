@@ -1,0 +1,119 @@
+body {
+	background-image: linear-gradient(120deg, #5dbce4, #1cac78);
+	font-family: Nunito;
+	min-height: 100vh;
+}
+
+header {
+	font-size: 2em;
+}
+
+header,
+form {
+	min-height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Nunito;
+}
+
+form input,
+button,
+form button {
+	padding: 0.5 rem;
+	font-size: 2em;
+	border: none;
+	font-family: Nunito;
+}
+
+form button {
+	background: #5dbce4;
+	border-style: outset;
+	border-color: royalblue;
+}
+
+.todoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: auto;
+}
+
+.todoList {
+	min-width: 25%;
+	font-size: 2em;
+}
+
+.todo {
+	margin: 0.5rem;
+	background: wheat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div {
+	display: auto;
+	flex: 3;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.todo li {
+	flex: 1;
+	padding: 1rem;
+}
+
+.completeButton,
+.removeButton {
+	background: teal;
+	color: white;
+	border: none;
+	padding: 1rem;
+	cursor: pointer;
+	font-size: 1em;
+	font: Nunito;
+	font-style: Nunito;
+}
+
+button {
+	border-style: groove;
+}
+.completeButton:hover {
+	background: white;
+	color: green;
+}
+
+.removeButton:hover {
+	background-color: white;
+	color: red;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.todoInput {
+	font: Nunito;
+	font-style: Nunito;
+}
+
+.todoItem {
+	padding: 0rem, 0.5 rem;
+}
+
+.fa-trash,
+.fa-check {
+	pointer-events: none;
+}
+
+.completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.falling {
+	transform: translateY(8rem) rotateZ(30deg);
+	opacity: 0;
+}
