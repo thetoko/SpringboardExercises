@@ -1,0 +1,61 @@
+Last login: Mon Nov 29 19:32:33 on ttys000
+lmoala@Ls-MacBook-Pro ~ % cd Desktop
+lmoala@Ls-MacBook-Pro Desktop % mkdir first
+lmoala@Ls-MacBook-Pro Desktop % ls
+Profile.jpg	Springboard	first		thinkorswim
+lmoala@Ls-MacBook-Pro Desktop % cd first
+lmoala@Ls-MacBook-Pro first % touch person.txt
+lmoala@Ls-MacBook-Pro first % mv person.txt another.txt
+lmoala@Ls-MacBook-Pro first % lss
+zsh: command not found: lss
+lmoala@Ls-MacBook-Pro first % ls
+another.txt
+lmoala@Ls-MacBook-Pro first % cd ..
+lmoala@Ls-MacBook-Pro Desktop % ls
+Profile.jpg	Springboard	first		thinkorswim
+lmoala@Ls-MacBook-Pro Desktop % cp -r first second
+lmoala@Ls-MacBook-Pro Desktop % ls
+Profile.jpg	Springboard	first		second		thinkorswim
+lmoala@Ls-MacBook-Pro Desktop % rm second
+rm: second: is a directory
+lmoala@Ls-MacBook-Pro Desktop % rm -rm second
+rm: illegal option -- m
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+lmoala@Ls-MacBook-Pro Desktop % ls
+Profile.jpg	Springboard	first		second		thinkorswim
+lmoala@Ls-MacBook-Pro Desktop % rm ~rm second
+zsh: no such user or named directory: rm
+lmoala@Ls-MacBook-Pro Desktop % rmdir second
+rmdir: second: Directory not empty
+lmoala@Ls-MacBook-Pro Desktop % rm -rf second
+lmoala@Ls-MacBook-Pro Desktop % ls
+Profile.jpg	Springboard	first		thinkorswim
+lmoala@Ls-MacBook-Pro Desktop % 
+
+
+Part II
+1. The man command is the command that pulls up the manual for specific function. 
+ Scroll man using keys or arrows and to get out use the "q" letter
+2. Man ls:      -L      Follow all symbolic links to final target and list the file or
+             directory the link references rather than the link itself.  This
+             option cancels the -P option.
+		-A      Include directory entries whose names begin with a dot (‘.’) except
+             for . and ...  Automatically set for the super-user unless -I is
+             specified.
+
+
+3. Jump between words using option and arrow keys left or right
+4. Control + E to get to the end of a line
+5. Control + A
+6. Option + Delete
+7. The terminal is a program with an interface to the shell. The shell is what processes the commands and function.
+8. Absolute path is the complete address including the root in the computer
+9. Relative path includes access in the current location that the terminal is in
+10. Flag adds another function to a command: -rm flag overrides when using to remove, -a listed above includes .directory entries. -l flag lists down files and folders in sorted order
+
+11. -r flag with rm : remove folders and everything in it; -f will force removal of folder and the files.
+
+
+ 
+
